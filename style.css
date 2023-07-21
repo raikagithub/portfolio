@@ -84,3 +84,14 @@ height:99%;
 bottom: 0;
 right:160px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+      justify-content: space-between;
+      margin-right:30px;
+    }
+    nav{
+        position: absolute;
+    }
+  }
